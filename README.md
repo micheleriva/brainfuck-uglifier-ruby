@@ -7,6 +7,7 @@ I know this is pretty useless, but I am trying some new programming languages an
 **Other Languages:** <br />
 - [GoLang](https://github.com/micheleriva/brainfuck-uglifier-go)
 - [Ruby](https://github.com/micheleriva/brainfuck-uglifier-ruby)
+- [Crystal](https://github.com/micheleriva/brainfuck-uglifier-crystal)
 
 **Work in progress:**
 - [Common Lisp](https://github.com/micheleriva/brainfuck-uglifier-common-lisp)
