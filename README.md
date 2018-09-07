@@ -8,6 +8,9 @@ I know this is pretty useless, but I am trying some new programming languages an
 - [GoLang](https://github.com/micheleriva/brainfuck-uglifier-go)
 - [Ruby](https://github.com/micheleriva/brainfuck-uglifier-ruby)
 
+**Work in progress:**
+- [Common Lisp](https://github.com/micheleriva/brainfuck-uglifier-common-lisp)
+
 # Usage
 
 Given the following brainfuck program:
