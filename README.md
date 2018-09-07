@@ -9,6 +9,8 @@ I know this is pretty useless, but I am trying some new programming languages an
 
 # Usage
 
+Given the following brainfuck program:
+
 ```brainfuck
 -[--->+<]>--.   # S
 [--->+<]>--.    # O
@@ -25,9 +27,14 @@ I know this is pretty useless, but I am trying some new programming languages an
 [->+++<]>++.    # Point
 ```
 
+Parse it in Ruby like this:
+
 ```ruby
 program = Uglifier.new("./test/test.bf")
 
 puts program.uglify
 # -[--->+<]>--.[--->+<]>--.[--->+<]>-----.+++++[->+++<]>.+.++++.-----------.++++.----.-[--->+<]>++.---[->+++<]>.-.[->+++<]>++.
 ```
+
+# License
+[MIT](/LICENSE.md)
