@@ -13,7 +13,13 @@ class Uglifier
   end
 
   def uglify
-    return self.getBfContent.gsub(/[^\.|,|\+|<|>|\-|\[|\]]/, "")
+
+    if !self.checkExt
+      abort("Please provide a valid Brainfuck file")
+    else
+      return self.getBfContent.gsub(/[^\.|,|\+|<|>|\-|\[|\]]/, "")
+    end
+
   end
 
 end
